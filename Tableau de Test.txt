@@ -1,0 +1,13 @@
+| #Action       | MainActivity      						| SecondActivity 			 |
+| ------------- |:-----------------:						| --------------:			 |
+| 1             | onPause, onStop		     				| onStart, onResume			 |
+| 2             | onRestart, onStart, onResume    				| onPause, onStop, onDestroy 		 |
+| 3		| onPause, onStop, onDestroy					|
+| 4		| onCreate, onStart, onResume					|
+| 5		| onPause, onStop
+| 6 		| onRestart, onStart, onResume
+| 7		| onPause, onStop						| onStart, onResume
+| 8		|								| onPause, onStop
+| 9		|								| onRestart, onStart, onResume
+| 10										| onPause, onStop
+| 11		|								| onRestart, onStart, onResume
