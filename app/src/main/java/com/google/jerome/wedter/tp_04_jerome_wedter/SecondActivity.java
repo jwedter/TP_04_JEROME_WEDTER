@@ -12,6 +12,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "La méthode onCreate est appelée");
         setContentView(R.layout.activity_second);
         closeActivity();
     }
